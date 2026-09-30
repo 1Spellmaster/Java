@@ -24,7 +24,7 @@ public class Main {
         System.out.print("Введiть цiле позитивне число: ");
 
         if (!scanner.hasNextInt()) {
-            System.out.println("Помилка: потрібно ввести ціле число.");
+            System.out.println("Помилка: потрiбно ввести цiле число.");
             scanner.close();
             return;
         }
