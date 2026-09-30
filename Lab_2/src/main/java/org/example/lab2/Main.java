@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Person originalPerson = new Person("Shevchenko", "Anton", 47);
+        Person originalPerson = new Person("Tkachuk", "Sasha", 22);
 
         ObjectMapper objectMapper = new ObjectMapper();
 
